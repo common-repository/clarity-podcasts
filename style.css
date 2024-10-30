@@ -1,0 +1,26 @@
+/*
+	These are the custom css styles for the Clarity Podcasts plugin.
+	If you'd like to customize these css codes, I would recommend copying
+	the codes below into your theme's stylesheet and editing the codes
+	as you see fit. Need help? email: hi@madebyguerrilla.com
+*/
+
+.claritypodcasts {
+	float: left;
+    width: 31.333%;
+    margin: 0 1%;
+}
+
+.claritypodcasts img {
+	width: 100%;
+	opacity: 1.0;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+
+.claritypodcasts img:hover {
+	opacity: 0.5;
+}
